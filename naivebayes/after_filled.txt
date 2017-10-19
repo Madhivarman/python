@@ -1,0 +1,253 @@
+       age         workclass  fnlwgt     education  education_num  \
+0       39         State-gov   77516     Bachelors             13   
+1       50  Self-emp-not-inc   83311     Bachelors             13   
+2       38           Private  215646       HS-grad              9   
+3       53           Private  234721          11th              7   
+4       28           Private  338409     Bachelors             13   
+5       37           Private  284582       Masters             14   
+6       49           Private  160187           9th              5   
+7       52  Self-emp-not-inc  209642       HS-grad              9   
+8       31           Private   45781       Masters             14   
+9       42           Private  159449     Bachelors             13   
+10      37           Private  280464  Some-college             10   
+11      30         State-gov  141297     Bachelors             13   
+12      23           Private  122272     Bachelors             13   
+13      32           Private  205019    Assoc-acdm             12   
+14      40           Private  121772     Assoc-voc             11   
+15      34           Private  245487       7th-8th              4   
+16      25  Self-emp-not-inc  176756       HS-grad              9   
+17      32           Private  186824       HS-grad              9   
+18      38           Private   28887          11th              7   
+19      43  Self-emp-not-inc  292175       Masters             14   
+20      40           Private  193524     Doctorate             16   
+21      54           Private  302146       HS-grad              9   
+22      35       Federal-gov   76845           9th              5   
+23      43           Private  117037          11th              7   
+24      59           Private  109015       HS-grad              9   
+25      56         Local-gov  216851     Bachelors             13   
+26      19           Private  168294       HS-grad              9   
+27      54           Private  180211  Some-college             10   
+28      39           Private  367260       HS-grad              9   
+29      49           Private  193366       HS-grad              9   
+...    ...               ...     ...           ...            ...   
+32531   30           Private   33811     Bachelors             13   
+32532   34           Private  204461     Doctorate             16   
+32533   54           Private  337992     Bachelors             13   
+32534   37           Private  179137  Some-college             10   
+32535   22           Private  325033          12th              8   
+32536   34           Private  160216     Bachelors             13   
+32537   30           Private  345898       HS-grad              9   
+32538   38           Private  139180     Bachelors             13   
+32539   71           Private  287372     Doctorate             16   
+32540   45         State-gov  252208       HS-grad              9   
+32541   41           Private  202822       HS-grad              9   
+32542   72           Private  129912       HS-grad              9   
+32543   45         Local-gov  119199    Assoc-acdm             12   
+32544   31           Private  199655       Masters             14   
+32545   39         Local-gov  111499    Assoc-acdm             12   
+32546   37           Private  198216    Assoc-acdm             12   
+32547   43           Private  260761       HS-grad              9   
+32548   65  Self-emp-not-inc   99359   Prof-school             15   
+32549   43         State-gov  255835  Some-college             10   
+32550   43  Self-emp-not-inc   27242  Some-college             10   
+32551   32           Private   34066          10th              6   
+32552   43           Private   84661     Assoc-voc             11   
+32553   32           Private  116138       Masters             14   
+32554   53           Private  321865       Masters             14   
+32555   22           Private  310152  Some-college             10   
+32556   27           Private  257302    Assoc-acdm             12   
+32557   40           Private  154374       HS-grad              9   
+32558   58           Private  151910       HS-grad              9   
+32559   22           Private  201490       HS-grad              9   
+32560   52      Self-emp-inc  287927       HS-grad              9   
+
+              marital_status         occupation    relationship  \
+0              Never-married       Adm-clerical   Not-in-family   
+1         Married-civ-spouse    Exec-managerial         Husband   
+2                   Divorced  Handlers-cleaners   Not-in-family   
+3         Married-civ-spouse  Handlers-cleaners         Husband   
+4         Married-civ-spouse     Prof-specialty            Wife   
+5         Married-civ-spouse    Exec-managerial            Wife   
+6      Married-spouse-absent      Other-service   Not-in-family   
+7         Married-civ-spouse    Exec-managerial         Husband   
+8              Never-married     Prof-specialty   Not-in-family   
+9         Married-civ-spouse    Exec-managerial         Husband   
+10        Married-civ-spouse    Exec-managerial         Husband   
+11        Married-civ-spouse     Prof-specialty         Husband   
+12             Never-married       Adm-clerical       Own-child   
+13             Never-married              Sales   Not-in-family   
+14        Married-civ-spouse       Craft-repair         Husband   
+15        Married-civ-spouse   Transport-moving         Husband   
+16             Never-married    Farming-fishing       Own-child   
+17             Never-married  Machine-op-inspct       Unmarried   
+18        Married-civ-spouse              Sales         Husband   
+19                  Divorced    Exec-managerial       Unmarried   
+20        Married-civ-spouse     Prof-specialty         Husband   
+21                 Separated      Other-service       Unmarried   
+22        Married-civ-spouse    Farming-fishing         Husband   
+23        Married-civ-spouse   Transport-moving         Husband   
+24                  Divorced       Tech-support       Unmarried   
+25        Married-civ-spouse       Tech-support         Husband   
+26             Never-married       Craft-repair       Own-child   
+27        Married-civ-spouse     Prof-specialty         Husband   
+28                  Divorced    Exec-managerial   Not-in-family   
+29        Married-civ-spouse       Craft-repair         Husband   
+...                      ...                ...             ...   
+32531          Never-married     Prof-specialty   Not-in-family   
+32532     Married-civ-spouse     Prof-specialty         Husband   
+32533     Married-civ-spouse    Exec-managerial         Husband   
+32534               Divorced       Adm-clerical       Unmarried   
+32535          Never-married    Protective-serv       Own-child   
+32536          Never-married    Exec-managerial   Not-in-family   
+32537          Never-married       Craft-repair   Not-in-family   
+32538               Divorced     Prof-specialty       Unmarried   
+32539     Married-civ-spouse     Prof-specialty         Husband   
+32540              Separated       Adm-clerical       Own-child   
+32541              Separated     Prof-specialty   Not-in-family   
+32542     Married-civ-spouse     Prof-specialty         Husband   
+32543               Divorced     Prof-specialty       Unmarried   
+32544               Divorced      Other-service   Not-in-family   
+32545     Married-civ-spouse       Adm-clerical            Wife   
+32546               Divorced       Tech-support   Not-in-family   
+32547     Married-civ-spouse  Machine-op-inspct         Husband   
+32548          Never-married     Prof-specialty   Not-in-family   
+32549               Divorced       Adm-clerical  Other-relative   
+32550     Married-civ-spouse       Craft-repair         Husband   
+32551     Married-civ-spouse  Handlers-cleaners         Husband   
+32552     Married-civ-spouse              Sales         Husband   
+32553          Never-married       Tech-support   Not-in-family   
+32554     Married-civ-spouse    Exec-managerial         Husband   
+32555          Never-married    Protective-serv   Not-in-family   
+32556     Married-civ-spouse       Tech-support            Wife   
+32557     Married-civ-spouse  Machine-op-inspct         Husband   
+32558                Widowed       Adm-clerical       Unmarried   
+32559          Never-married       Adm-clerical       Own-child   
+32560     Married-civ-spouse    Exec-managerial            Wife   
+
+                     race     sex  capital_gain  capital_loss  hours_per_week  \
+0                   White    Male          2174             0              40   
+1                   White    Male             0             0              13   
+2                   White    Male             0             0              40   
+3                   Black    Male             0             0              40   
+4                   Black  Female             0             0              40   
+5                   White  Female             0             0              40   
+6                   Black  Female             0             0              16   
+7                   White    Male             0             0              45   
+8                   White  Female         14084             0              50   
+9                   White    Male          5178             0              40   
+10                  Black    Male             0             0              80   
+11     Asian-Pac-Islander    Male             0             0              40   
+12                  White  Female             0             0              30   
+13                  Black    Male             0             0              50   
+14     Asian-Pac-Islander    Male             0             0              40   
+15     Amer-Indian-Eskimo    Male             0             0              45   
+16                  White    Male             0             0              35   
+17                  White    Male             0             0              40   
+18                  White    Male             0             0              50   
+19                  White  Female             0             0              45   
+20                  White    Male             0             0              60   
+21                  Black  Female             0             0              20   
+22                  Black    Male             0             0              40   
+23                  White    Male             0          2042              40   
+24                  White  Female             0             0              40   
+25                  White    Male             0             0              40   
+26                  White    Male             0             0              40   
+27     Asian-Pac-Islander    Male             0             0              60   
+28                  White    Male             0             0              80   
+29                  White    Male             0             0              40   
+...                   ...     ...           ...           ...             ...   
+32531  Asian-Pac-Islander  Female             0             0              99   
+32532               White    Male             0             0              60   
+32533  Asian-Pac-Islander    Male             0             0              50   
+32534               White  Female             0             0              39   
+32535               Black    Male             0             0              35   
+32536               White  Female             0             0              55   
+32537               Black    Male             0             0              46   
+32538               Black  Female         15020             0              45   
+32539               White    Male             0             0              10   
+32540               White  Female             0             0              40   
+32541               Black  Female             0             0              32   
+32542               White    Male             0             0              25   
+32543               White  Female             0             0              48   
+32544               Other  Female             0             0              30   
+32545               White  Female             0             0              20   
+32546               White  Female             0             0              40   
+32547               White    Male             0             0              40   
+32548               White    Male          1086             0              60   
+32549               White  Female             0             0              40   
+32550               White    Male             0             0              50   
+32551  Amer-Indian-Eskimo    Male             0             0              40   
+32552               White    Male             0             0              45   
+32553  Asian-Pac-Islander    Male             0             0              11   
+32554               White    Male             0             0              40   
+32555               White    Male             0             0              40   
+32556               White  Female             0             0              38   
+32557               White    Male             0             0              40   
+32558               White  Female             0             0              40   
+32559               White    Male             0             0              20   
+32560               White  Female         15024             0              40   
+
+      native_country income  
+0      United-States  <=50K  
+1      United-States  <=50K  
+2      United-States  <=50K  
+3      United-States  <=50K  
+4               Cuba  <=50K  
+5      United-States  <=50K  
+6            Jamaica  <=50K  
+7      United-States   >50K  
+8      United-States   >50K  
+9      United-States   >50K  
+10     United-States   >50K  
+11             India   >50K  
+12     United-States  <=50K  
+13     United-States  <=50K  
+14     United-States   >50K  
+15            Mexico  <=50K  
+16     United-States  <=50K  
+17     United-States  <=50K  
+18     United-States  <=50K  
+19     United-States   >50K  
+20     United-States   >50K  
+21     United-States  <=50K  
+22     United-States  <=50K  
+23     United-States  <=50K  
+24     United-States  <=50K  
+25     United-States   >50K  
+26     United-States  <=50K  
+27             South   >50K  
+28     United-States  <=50K  
+29     United-States  <=50K  
+...              ...    ...  
+32531  United-States  <=50K  
+32532  United-States   >50K  
+32533          Japan   >50K  
+32534  United-States  <=50K  
+32535  United-States  <=50K  
+32536  United-States   >50K  
+32537  United-States  <=50K  
+32538  United-States   >50K  
+32539  United-States   >50K  
+32540  United-States  <=50K  
+32541  United-States  <=50K  
+32542  United-States  <=50K  
+32543  United-States  <=50K  
+32544  United-States  <=50K  
+32545  United-States   >50K  
+32546  United-States  <=50K  
+32547         Mexico  <=50K  
+32548  United-States  <=50K  
+32549  United-States  <=50K  
+32550  United-States  <=50K  
+32551  United-States  <=50K  
+32552  United-States  <=50K  
+32553         Taiwan  <=50K  
+32554  United-States   >50K  
+32555  United-States  <=50K  
+32556  United-States  <=50K  
+32557  United-States   >50K  
+32558  United-States  <=50K  
+32559  United-States  <=50K  
+32560  United-States   >50K  
+
+[32561 rows x 15 columns]
