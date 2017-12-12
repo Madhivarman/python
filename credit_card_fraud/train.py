@@ -78,9 +78,7 @@ def TrainNeuralNetwork(x):
 
 	#how many epochs ?
 	hm_epochs = 100
-
-	#shuffle the dataset order
-	training_data  = shuffle(training_data)
+	
 	#start the session
 
 	with tf.Session() as sess:
