@@ -1,3 +1,6 @@
+"""
+    Trained model to classify dogs and cats
+"""
 import dataset
 import tensorflow as tf
 import time
