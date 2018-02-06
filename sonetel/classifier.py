@@ -27,9 +27,14 @@ def extract_keywords():
 	rake = Rake()
 
 	for data in review:
-		extracted_keywords = rake.extract_keywords_from_text(data)
-		ranked_phrase_keywords = rake.get_ranked_phrases()
-		keywords.append(ranked_phrase_keywords)
+		if "not" not in data:
+			extracted_keywords = rake.extract_keywords_from_text(data)
+			ranked_phrase_keywords = rake.get_ranked_phrases()
+			keywords.append(ranked_phrase_keywords)
+		else:
+			extracted_keywords = rake.extract_keywords_from_text(data)
+			ranked_phrase_keywords = rake.get_ranked_phrases()
+			keywords.append(ranked_phrase_keywords)
 
 	#print(keywords)
 	sentiment_result = []
